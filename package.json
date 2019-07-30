@@ -1,0 +1,11 @@
+{
+  "name": "game-pitcher",
+  "version": "1.0.0",
+  "description": "Generate your own terrible video game pitches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "D. Williams (thedavesignal@gmail.com)",
+  "license": "ISC"
+}
