@@ -1,0 +1,30 @@
+{
+  "name": "gp-backend",
+  "version": "1.0.0",
+  "description": "Game-Pitcher Backend",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "webpack",
+    "dev-start": "babel-watch src/server.js",
+    "start": "node build/server.bundle.js"
+  },
+  "author": "D. Williams (thedavesignal@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-watch": "^7.0.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
